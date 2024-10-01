@@ -10,3 +10,8 @@ if (typeof window !== "undefined") {
   // If you see a SSR error, try moving your code here!
   console.log("Hello world, browser :-)");
 }
+import "@picocss/pico/css/pico.min.css"; 
+<main class ="container"
+>
+
+</main>

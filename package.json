@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@picocss/pico": "^2.0.6",
     "astro": "^4.15.9"
   }
 }
