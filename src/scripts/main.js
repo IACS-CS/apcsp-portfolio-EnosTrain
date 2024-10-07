@@ -10,6 +10,7 @@ if (typeof window !== "undefined") {
   // MOST of your code should go.
   //
   Aos.init()
+  picocss.init()
   // If you see a SSR error, try moving your code here!
   console.log("Hello world, browser :-)");
-} console.log ("Hello world, from Main.js!")
+} console.log ("Hello world, from Main.js!");
