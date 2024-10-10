@@ -3,6 +3,8 @@ import "../styles/styles.css";
 import "@picocss/pico/css/pico.min.css"; 
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { isESMImportedImage } from "astro/assets/utils";
+import { createImage } from "astro/content/runtime-assets";
 console.log("What?");
 console.log("Hello world, from main.js!");
 if (typeof window !== "undefined") {
@@ -14,3 +16,4 @@ if (typeof window !== "undefined") {
   // If you see a SSR error, try moving your code here!
   console.log("Hello world, browser :-)");
 } console.log ("Hello world, from Main.js!");
+ 
