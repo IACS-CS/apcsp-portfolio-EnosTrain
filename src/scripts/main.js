@@ -3,7 +3,7 @@ import "../styles/styles.css";
 import "@picocss/pico/css/pico.min.css"; 
 import Aos from "aos";
 import "aos/dist/aos.css";
-import 'simple-lightbox/dist/simple-lightbox.min.css';
+
 console.log("What?");
 console.log("Hello world, from main.js!");
 if (typeof window !== "undefined") {
